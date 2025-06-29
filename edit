@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Запишитесь на диагностическую сессию с Ириной</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #e10600;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .button {
+      background-color: #e10600;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Запишитесь на диагностическую сессию с Ириной</h1>
+  </header>
+  <section>
+    <h2>Что это?</h2>
+    <p>Диагностическая сессия продолжительностью до 70 минут, в ходе которой мы разберём вашу финансовую ситуацию, определим приоритеты и наметим стратегию движения к вашим целям.</p>
+
+    <h2>Для кого подходит?</h2>
+    <ul>
+      <li>Для тех, кто чувствует, что деньги «утекают сквозь пальцы»</li>
+      <li>Для предпринимателей, кто хочет систематизировать финансы</li>
+      <li>Для тех, кто планирует начать инвестировать и боится ошибок</li>
+      <li>Для всех, кто хочет осознанно управлять деньгами</li>
+    </ul>
+
+    <h2>Чем полезна эта сессия?</h2>
+    <ul>
+      <li>Осознание текущего финансового положения</li>
+      <li>Определение реальных целей</li>
+      <li>Пошаговый план старта</li>
+      <li>Чувство уверенности и контроля</li>
+    </ul>
+
+    <h2>Стоимость</h2>
+    <p><strong>3 900 рублей за 70 минут</strong></p>
+
+    <h2>Результат</h2>
+    <p>Вы получите ясное понимание, куда двигаться дальше, какие шаги приоритетны, и как перестать бояться ошибок в управлении финансами.</p>
+
+    <h2>Запись на сессию</h2>
+    <form>
+      <label for="name">Имя</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Телефон</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="query">Ваш запрос</label>
+      <textarea id="query" name="query" rows="4" placeholder="Опишите коротко ваш запрос"></textarea>
+
+      <button type="submit" class="button">Отправить заявку</button>
+    </form>
+  </section>
+</body>
+</html>
